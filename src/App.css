@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.form{
+  display: flex;
+  gap: 10px;
+  padding: 10px;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10%;
+  
+}
+
+.close, .fa{
+  cursor: pointer;
+}
+
+
+.form i{
+  font-size: 20px;
+  font-weight: lighter;
+}
+.form input{
+  margin-left: 80%;
+  padding: 10px;
+  
+  border: none;
+  outline: none;
+  border-bottom: .5px solid gray;
+}
+
+.close{
+  font-weight: bolder;
+  font-size: 20px;
+}
